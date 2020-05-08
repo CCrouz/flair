@@ -9,27 +9,295 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>bonjour tout le monde</p>
 
-    <h3>Buttons</h3>
-    <button class="btn-primary" type="button"> Envoyer </button>
-    <button class="btn-primary" type="button" disabled> Envoyer</button>
-    <button class="btn-primary-small" type="button"> OK </button>
-    <button class="btn-primary-small" type="button" disabled> OK </button>
-    <button class="btn-secondary" type="button"> A </button>
-    <button class="btn-secondary" type="button" disabled> A </button>
+    <header>
+        <a href="#link-flair">
+            <span class="header-link">Flair</span>
+        </a>
 
-    <h3>Couleurs</h3>
-    <div class="couleurs">
-        <div id="noir"></div>
-        <div id="jaune"></div>
-        <div id="gris-souris"></div>
-        <div id="gris-fonce"></div>
-        <div id="gris-timide"></div>
-        <div id="bleu-doux"></div>
-        <div id="vert-petit-pois"></div>
-        <div id="blanc"></div>
-        <div id="jaune-pale"></div>
-    </div>
+       <a href="#link-couleurs">
+        <span class="header-link">Couleurs</span>
+       </a> 
+
+       <a href="#link-btn">
+        <span class="header-link">Boutons</span>
+       </a> 
+
+       <a href="#link-espacements">
+        <span class="header-link">Espacements</span>
+       </a> 
+
+       <a href="#link-ombres">
+        <span class="header-link">Ombres</span>
+       </a> 
+
+       <a href="#ink-radius">
+        <span class="header-link">Radius</span>
+       </a>
+
+       <a href="#link-typographie">
+        <span class="header-link">Typographie</span>
+       </a> 
+       
+       <a href="#link-organism">
+        <span class="header-link">Organism</span>
+       </a> 
+    </header>
+
+
+    <section class="main-content"> 
+        
+        <section>        
+           <h3 id="link-flair">Flair</h3>
+           <p>Une collaboration de Céléna & Melissa<p>
+           <p><a href="https://www.figma.com/file/yzMXenIHW8tKXqfxNlSbMb/FLAIR---C%C3%A9l%C3%A9na-%26-Melissa?node-id=0%3A1" target="_blank">Lien Figma</a><p>   
+           <p>L’application permet à l’utilisateur de partager sa position avec ses amis.</p>
+           <p>Pour se connecter à l’application il doit renseigner uniquement son numéro de téléphone.</p>
+        </section>
+    
+        <section>
+           <h3 id="link-couleurs">Couleurs</h3>
+           <div class="couleurs">
+               <div class="card-couleurs"> 
+                   <div id="noir"></div>
+                   <p>Noir <br>#000000</p>
+               </div>
+               
+               <div class="card-couleurs">
+                   <div id="gris-fonce"></div>
+                   <p>Gris Foncé <br>#5E6164</p>
+               </div>
+               
+               <div class="card-couleurs">
+                   <div id="gris-souris"></div>
+                   <p>Gris Souris <br>#CAC9C9</p>
+               </div>
+       
+               <div class="card-couleurs">
+                   <div id="gris-timide"></div>
+                   <p>Gris Timide <br>#F6F6F6</p>
+               </div>
+       
+               <div class="card-couleurs">
+                   <div id="blanc"></div>
+                   <p>Blanc <br>#FFFFFF</p>
+               </div>
+               
+               <div class="card-couleurs">
+                   <div id="bleu-doux"></div>
+                   <p> Bleu Doux <br> #EDF7FF </p>
+               </div>
+       
+               <div class="card-couleurs">
+                   <div id="jaune"></div> 
+                   <p>Jaune<br>#FDC251</p>
+               </div>
+       
+               <div class="card-couleurs">
+                   <div id="jaune-pale"></div>
+                   <p>Jaune Pâle <br>#FFD074</p>
+               </div>
+       
+               <div class="card-couleurs">
+                   <div id="vert-petit-pois"></div>       
+                   <p>Vert Petit Pois <br>#5EC32E</p>
+               </div>
+           </div>
+        </section>
+
+        <section>
+           <h3 id="link-typographie">Typographie</h3>
+           <div class="typo-all">
+               <p id="titre">Titre / Roboto bold 30px</p>
+               <p id="sous-titre">Sous-titre / Roboto bold 20px</p>
+               <p id="petit-titre">Petit-titre / Roboto régular 20px</p>
+               <p id="bouton">Bouton / Roboto régular 14px</p>
+               <p id="body">Body / Roboto régular 12px</p>
+               <p id="body-light">Body-light / Roboto light 12px</p>
+               <p div id="small">Small / Roboto regular 10px</p>
+               <p id="small-light">Small Light / Roboto light 10px</p>
+           </div>
+        </section> 
+       
+        <section>
+            <h3 id="link-espacements">Espacements</h3>
+            <div class="espacement-all">
+                <div class="espacement-card">
+                    <div id="huit"></div>
+                    <p>8x8px <br> --space-xs</p>
+                </div>
+        
+                <div class="espacement-card">
+                    <div id="douze"></div>
+                    <p>12x12px <br> --space-s</p>
+                </div>
+        
+                <div class="espacement-card">
+                    <div id="seize"></div>
+                    <p>16x16px <br> --space-m</p>
+                </div>
+        
+                <div class="espacement-card">
+                    <div id="trente-deux"></div>
+                    <p>32x32px <br> --space-l</p>
+                </div>
+        
+                <div class="espacement-card">
+                    <div id="soixante-quatre"></div>
+                    <p>64x64px <br> --space-xl</p>
+                </div>
+        
+                <div class="espacement-card">
+                    <div id="cent-vingt-huit"></div>
+                    <p>128x128px <br> --space-xxl</p>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <h3 id="link-ombres">Ombres</h3>
+            <div class="ombre-all">
+                <div class="card-ombre">
+                    <div id="ombre-normal"></div>
+                    <p>Ombre normale <br>0px 4px 4px rgba(0, 0, 0, 0.1)</p>
+                </div>
+        
+                <div class="card-ombre">
+                    <div id="ombre-interne"></div>
+                    <p>Ombre interne<br>inset 0px 2px 2px rgba(0, 0, 0, 0.15)</p>
+                </div>
+            </div>
+       </section>
+    
+    
+       <section>
+            <h3 id="link-radius">Radius</h3>
+            <div class="card-radius">
+                <div id="radius"></div>
+                <p>Radius <br>10px</p> 
+            </div>             
+        </section>
+
+        <section>
+            <h3 id="link-btn">Buttons</h3>
+            
+            <h4>Primary buttons</h4>
+            <div class="btn-primary-all">
+                <div class="btn-primary-card">
+                    <button id="bouton" class="btn-primary anime" type="button"> Envoyer </button>
+                    <p>Animé</p>
+                </div>
+        
+                <div class="btn-primary-card">
+                    <button id="bouton" class="btn-primary" type="button"> Envoyer </button>
+                    <p>Normal</p>
+                </div>
+        
+                <div class="btn-primary-card">
+                    <button id="bouton" class="btn-primary primary-hover" type="button"> Envoyer </button>
+                    <p>Hover</p>
+                </div>
+                
+                <div class="btn-primary-card">
+                    <button id="bouton" class="btn-primary primary-focus" type="button"> Envoyer </button>
+                    <p>Focus</p>
+                </div>
+            
+                <div class="btn-primary-card">
+                    <button id="bouton" class="btn-primary primary-active" type="button"> Envoyer </button>
+                    <p>Active</p>
+                </div>
+                
+                <div class="btn-primary-card">
+                    <button id="bouton" class="btn-primary primary-disable" type="button" disabled> Envoyer </button>
+                    <p>Disable</p>
+                </div>
+            </div>
+         
+            <h4>Primary buttons - small</h4>
+            <div class="btn-primary-small-all">
+                  <div class="btn-primary-small-card">
+                      <button id="bouton" class="btn-primary-small anime" type="button"> OK </button>
+                      <p>Animé</p>
+                  </div>
+          
+                  <div class="btn-primary-small-card">
+                      <button id="bouton" class="btn-primary-small" type="button"> OK </button>
+                      <p>Normal</p>
+                  </div>
+          
+                  <div class="btn-primary-small-card">
+                      <button id="bouton" class="btn-primary-small primary-hover" type="button"> OK </button>
+                      <p>Hover</p>
+                  </div>
+          
+                  <div class="btn-primary-small-card">
+                      <button id="bouton" class="btn-primary-small primary-focus" type="button"> OK </button>
+                      <p>Focus</p>
+                  </div>
+          
+                  <div class="btn-primary-small-card">
+                      <button id="bouton" class="btn-primary-small primary-active" type="button"> OK </button>
+                      <p>Active</p>
+                  </div>
+          
+                  <div class="btn-primary-small-card">
+                      <button id="bouton" class="btn-primary-small primary-disable" type="button" disabled> OK </button>
+                      <p>Disable</p>
+                  </div>
+            </div>
+     
+            <h4>Secondary buttons</h4>
+            <div class="btn-secondary-all">
+            <div class="btn-secondary-card"> 
+                 <button id="petit-titre" class="btn-secondary anime" type="button"> A </button>
+                 <p>Animé</p>
+            </div>
+     
+            <div class="btn-secondary-card">
+                 <button id="petit-titre" class="btn-secondary" type="button"> A </button>
+                 <p>Normal</p>
+            </div>
+             
+            <div class="btn-secondary-card">
+                 <button id="petit-titre" class="btn-secondary secondary-hover" type="button"> A </button>
+                 <p>Hover</p>
+            </div>
+             
+            <div class="btn-secondary-card">
+                 <button id="petit-titre" class="btn-secondary primary-focus" type="button"> A </button>
+                 <p>Focus</p>
+            </div>
+             
+            <div class="btn-secondary-card">
+                 <button id="petit-titre" class="btn-secondary primary-active" type="button"> A </button>
+                 <p>Active</p>
+            </div>
+             
+            <div class="btn-secondary-card">
+                 <button id="petit-titre" class="btn-secondary primary-disable" type="button" disabled> A </button>
+                 <p>Disable</p>
+            </div>
+            </div>
+        </section>
+ 
+      
+
+                        
+        <section>
+            <h3 id="link-organism">Organism</h3>
+            <div class="contact">
+                <div class="contact-bloc-left">
+                    <button id="petit-titre" class="btn-secondary" type="button"> A </button>
+                    <div class="contact-info">
+                        <span class="contact-name">Abby</span>
+                    </div>
+                </div>
+                <button class="btn-secondary picto" type="button"> <img src="image/ping.svg" alt="icon ping"> </button>
+            </div>
+        </section>            
+        </div>
+    </section>
+
 </body>
 </html>
